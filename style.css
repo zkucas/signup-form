@@ -1,0 +1,137 @@
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Handjet', cursive;
+}
+
+
+.split{
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    top:0;
+}
+
+.left{
+    left:0;
+    background-image: url(./images/side_img2.jpg);
+    opacity: 0.7;
+    transform: translateX(-35%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    right:0;
+    background-color: white;
+}
+
+.logo-frame{
+    transform: translateY(-130%);
+    background-color: white;
+    opacity: 0.4;
+    width: 100%;
+    height: 210px;
+    background-image: url(./images/logo2.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-frame .logo{
+    opacity: 1;
+}
+
+
+.side-img{
+    transform: translateX(-30%);
+}
+
+.top{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    width: 100%;
+
+}
+
+h1{
+    align-self: flex-end;
+    padding: 25px;
+}
+
+.mid{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px;
+    opacity: 0.9;
+    width: 100%;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+
+}
+
+.mid .title{
+    font-size: 30px;
+}
+
+.mid form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+form .user-details .input-box{
+    margin:30px 0 15px 0;
+    height: 30px;
+    width: 200px;
+}
+
+.user-details .input-box input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc ;
+    padding-left: 10px;
+
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: orange;
+
+}
+
+.user-details .input-box .details{
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.bottom{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.button input{
+    transform: translateY(100px);
+    height: 30px;
+    background-color: rgb(190, 166, 131);
+    border-radius: 0.5rem;
+    border: 0px;
+    width: 200px;
+    font: inherit;
+    background: linear-gradient(135deg, rgb(192, 181, 160), rgb(129, 202, 220));
+}
+
